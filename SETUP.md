@@ -7,7 +7,7 @@ Target time: **~90 minutes** end-to-end, including the first build.
 ## 0. Prerequisites
 
 - Unreal Engine **5.6** installed via Epic Games Launcher
-- Rider for Unreal Engine (latest), or VS Code + clangd
+- JetBrains Rider (latest 2026.x) — see [RIDER.md](./RIDER.md) for full IDE setup. Or VS Code + clangd if you prefer.
 - `claude` CLI authenticated (`claude --version` works)
 - Node 18+ (for `gdep`)
 - Python 3.10+ on PATH
