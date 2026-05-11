@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"git init -b main 2>&1 && git add CLAUDE.md .claude/settings.local.json .omc/research .omc/state 2>&1 && git status --short\",\"description\":\"Init repo and stage files\"}",
+  "error": "Exit code 1\nInitialized empty Git repository in /Users/genehan/projects/claudehome-projects/research/unreal-ai-dev/.git/\nThe following paths are ignored by one of your .gitignore files:\n.claude/settings.local.json\nhint: Use -f if you really want to add them.\nhint: Disable this message with \"git config set advice.addIgnoredFile false\"",
+  "timestamp": "2026-05-11T03:17:02.421Z",
+  "retry_count": 1
+}

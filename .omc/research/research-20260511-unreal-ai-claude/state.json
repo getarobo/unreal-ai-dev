@@ -1,0 +1,19 @@
+{
+  "id": "research-20260511-unreal-ai-claude",
+  "goal": "How to use Claude (Claude Code + Claude API) to develop Unreal Engine projects. Cover: MCP servers for UE, UE plugins bridging LLMs, practitioner tips/workflows, top OSS repos, honest user reviews, and onboarding recommendations.",
+  "status": "complete",
+  "mode": "auto",
+  "iteration": 1,
+  "maxIterations": 10,
+  "stages": [
+    {"id": 1, "name": "MCP servers for Unreal Engine", "tier": "MEDIUM", "status": "complete", "findingsFile": "report.md#section-1"},
+    {"id": 2, "name": "Unreal plugins bridging LLMs/AI", "tier": "MEDIUM", "status": "complete", "findingsFile": "report.md#section-2"},
+    {"id": 3, "name": "Practitioner tips and workflows", "tier": "MEDIUM", "status": "complete", "findingsFile": "report.md#section-3"},
+    {"id": 4, "name": "Top active OSS repos/projects", "tier": "MEDIUM", "status": "complete", "findingsFile": "report.md#section-4"},
+    {"id": 5, "name": "User reviews and pitfalls", "tier": "MEDIUM", "status": "complete", "findingsFile": "report.md#section-5"}
+  ],
+  "verification": {"status": "passed", "note": "Sources cross-validated across StraySpark, NVIDIA, Kevuru, Epic forums, and primary GitHub repos. No contradictions found in the dominant claims (Claude Opus 4.6 strongest for UE C++, MCP is the canonical integration, Blueprints are binary and need parser plugins). One unresolved: precise UE 5.7 vs 5.6 plugin compatibility matrix shifts weekly."},
+  "createdAt": "2026-05-11T02:56:56Z",
+  "updatedAt": "2026-05-11T03:30:00Z",
+  "reportPath": "report.md"
+}
