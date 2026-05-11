@@ -10,7 +10,7 @@ There are no build, lint, or test commands.
 
 ## Primary artifact
 
-`.omc/research/research-20260511-unreal-ai-claude/report.md` — 341‑line, fully‑cited report covering:
+`REPORT.md` at the repo root — 341‑line, fully‑cited report covering:
 1. Inventory of MCP servers for UE (chongdashu, flopperam, kvick, Natfii, NAJEMWEHBE, prajwalshettydev, runreal, GenOrca, soft-ue-cli, ue-llm-toolkit, gdep, etc.) with star counts, UE version support, install patterns
 2. Fab/Marketplace AI plugins (Ludus, CLAUDIUS, Rekall, LocoAI, Aura, NWIRO, Muddy Terrain Gen AI, AI Chat Plus)
 3. Practitioner workflows (Rider + Claude Code, NVIDIA AST chunking, StraySpark setup guides)
@@ -18,9 +18,9 @@ There are no build, lint, or test commands.
 5. Honest reviews and pitfalls (Blueprint binary problem, file-by-file reading, context blowup, MCP drops under load)
 6. Concrete phased onboarding recommendation for this user
 
-Before re-researching any of these topics, **read this report first** — it was produced May 2026 with live WebSearch/WebFetch evidence.
+Before re-researching any of these topics, **read REPORT.md first** — it was produced May 2026 with live WebSearch/WebFetch evidence.
 
-`.omc/research/research-20260511-unreal-ai-claude/state.json` — research session metadata (status: complete).
+`.omc/research/research-20260511-unreal-ai-claude/` — the original sciomc session: a copy of the report, `state.json` metadata, and runtime artifacts. Treat as an append-only archive of how the report was generated. Future research sessions should follow the same `research-YYYYMMDD-<slug>/` pattern there.
 
 ## Recommended stack (from report §6)
 
