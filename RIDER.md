@@ -11,11 +11,12 @@ Companion to [SETUP.md](./SETUP.md). Covers everything from install through your
 - **macOS specifics:** Apple Silicon native build is the default. Install Xcode Command Line Tools first: `xcode-select --install`.
 - **Windows specifics:** Install Visual Studio Build Tools 2022 with the "Game development with C++" workload (Rider uses MSVC for compiling but doesn't need full VS). If you already have Visual Studio installed, even better.
 
-After install, launch Rider once → through the welcome screen choose **Customize → Plugins** and confirm these are enabled (they ship bundled, just verify):
+After install, launch Rider once → through the welcome screen choose **Customize → Plugins** and confirm these bundled plugins are enabled:
 
-- Unreal Engine
-- C++ tools (clangd, GDB/LLDB, MSVC support depending on platform)
-- Terminal (so you can run `claude` in a side panel)
+- **Unreal Engine** — ships bundled with Rider 2024+; gives you `.uproject` understanding, UCLASS/UPROPERTY awareness, Live Coding integration.
+- **Terminal** — so you can run `claude` in a side panel.
+
+**Note on C++ language support:** Rider's C++ engine (ReSharper C++ analyzer) is built into the product itself — there is no separate "clangd" or "C++" plugin to find or enable. Debuggers (LLDB on macOS/Linux, MSVC/LLDB on Windows) are also built-in. An experimental clangd-based engine exists under **Settings → Languages & Frameworks → C++ → Language Engine** in recent versions — leave it on the default ReSharper engine; it's what every Rider+UE write-up assumes.
 
 ## 2. Open the project
 
